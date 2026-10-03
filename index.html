@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="dark" name="color-scheme"/>
+  <meta content="#08080a" name="theme-color"/>
+  <title>RAW.FILMS — Режиссёр &amp; Оператор-постановщик</title>
+  <meta content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" name="robots"/>
+  <meta content="RAW.FILMS — Видеомейкер, режиссёр и оператор-постановщик в Челябинске. Музыкальные клипы, концертные отчёты, креативные проекты." name="description"/>
+  <meta content="RAW.FILMS" property="og:title"/>
+  <meta content="RAW.FILMS — ВИДЕОМЕЙКЕР В ЧЕЛЯБИНСКЕ" property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <meta content="ru" property="og:locale"/>
+  <link rel="icon" type="image/svg+xml" href="assets/favicons/favicon.svg"/>
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+  <link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="assets/css/theme.css" rel="stylesheet"/>
+</head>
+<body class="theme-leto -has-dark-scheme -scheme-dark">
+
+  <!-- 1. Fixed Continuous Background Video & Dynamic Liquid Glass Frost Layer -->
+  <div class="fixed-video-wrap" aria-hidden="true">
+    <video id="bgVideo" autoplay loop muted playsinline poster="assets/images/showreel_poster.jpg">
+      <source src="assets/video/showreel.mp4" type="video/mp4"/>
+    </video>
+    <div id="liquidGlassOverlay" class="liquid-glass-overlay"></div>
+  </div>
+
+  <div class="page-wrapper js-page">
+    <!-- Header -->
+    <header class="page-header js-header -visible">
+      <div class="inner">
+        <div class="logo js-logo">
+          <a class="logo-link" href="#showreel" title="RAW.FILMS">
+            <img alt="RAW.FILMS" class="logo-image" src="assets/images/logo.png"/>
+          </a>
+        </div>
+        <nav class="menu js-menu">
+          <ul class="menu-list js-menu-list">
+            <li class="menu-item js-menu-item -active"><a class="link" href="#showreel">SHOWREEL</a></li>
+            <li class="menu-item js-menu-item"><a class="link" href="#video">ВИДЕО</a></li>
+            <li class="menu-item js-menu-item"><a class="link" href="#proekty">ПРОЕКТЫ</a></li>
+            <li class="menu-item js-menu-item"><a class="link" href="#o-sebe">О СЕБЕ</a></li>
+          </ul>
+        </nav>
+        <button class="menu-trigger js-menu-trigger" aria-label="Открыть меню" type="button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="page-main js-main">
+      <!-- Section 1: Hero Showreel Cover -->
+      <section id="showreel" class="hero-cover -fullscreen">
+        <div class="cover-wrapper js-cover-wrapper">
+          <div class="cover-bottom">
+            <div class="cover-content">
+              <button class="cover-down-arrow js-cover-down-arrow" type="button" aria-label="Смотреть работы" title="Смотреть работы">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Section 2: Video Carousel Section -->
+      <section id="video" class="content-section -wide-section">
+        <div class="fullwidth-glass-banner -tiles-banner">
+          <div class="banner-inner -fluid">
+            <!-- Section Header Bar (shadcn/ui style per Reference Mockup) -->
+            <div class="shadcn-section-header">
+              <div class="header-title-col">
+                <h1 class="section-heading">ИЗБРАННЫЕ РАБОТЫ</h1>
+              </div>
+
+              <!-- Filter Tabs (shadcn/ui style) -->
+              <div class="header-tabs-col">
+                <div class="shadcn-tabs js-video-tabs" role="tablist">
+                  <button class="shadcn-tab -active js-filter-tab" data-filter="all" type="button">
+                    ВСЕ <span class="tab-count">9</span>
+                  </button>
+                  <button class="shadcn-tab js-filter-tab" data-filter="music" type="button">
+                    МУЗЫКАЛЬНЫЕ ВИДЕО <span class="tab-count">5</span>
+                  </button>
+                  <button class="shadcn-tab js-filter-tab" data-filter="concerts" type="button">
+                    LIVE & КОНЦЕРТЫ <span class="tab-count">4</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Video Tiles Grid (2-column widescreen cards, sorted newest to oldest) -->
+            <div class="video-tiles-grid js-video-tiles-grid">
+                <!-- 1. KLAVA BRAVO — КОНСТАНТИН (23.09.2026) -->
+                <div class="carousel-card js-carousel-card js-video-section" data-category="music" data-source-url="https://www.youtube.com/embed/p6Ew8Ukywx8?rel=0" aria-label="KLAVA BRAVO — КОНСТАНТИН">
+                  <div class="card-media">
+                    <img src="assets/images/musicvideo/mv_konstantin.jpg" alt="KLAVA BRAVO — КОНСТАНТИН" loading="lazy" />
+                    <div class="card-badge-tag"><span class="shadcn-badge -solid">МУЗЫКАЛЬНОЕ ВИДЕО</span></div>
+                    <div class="card-quality-tag"><span class="card-year">2026</span><span class="card-quality">4K</span></div>
+                    <div class="card-play-overlay">
+                      <div class="card-play-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 2. KLAVA BRAVO — КАКОЙ БАЗАР (30.06.2026) -->
+                <div class="carousel-card js-carousel-card js-video-section" data-category="music" data-source-url="https://www.youtube.com/embed/ieqw7KbbUbw?rel=0" aria-label="KLAVA BRAVO — КАКОЙ БАЗАР">
+                  <div class="card-media">
+                    <img src="assets/images/musicvideo/mv_2.jpg" alt="KLAVA BRAVO — КАКОЙ БАЗАР" loading="lazy" />
+                    <div class="card-badge-tag"><span class="shadcn-badge -solid">МУЗЫКАЛЬНОЕ ВИДЕО</span></div>
+                    <div class="card-quality-tag"><span class="card-year">2026</span><span class="card-quality">4K</span></div>
+                    <div class="card-play-overlay">
+                      <div class="card-play-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 3. KLAVA BRAVO — NO WORK NO CHECK (15.06.2026) -->
+                <div class="carousel-card js-carousel-card js-video-section" data-category="music" data-source-url="https://www.youtube.com/embed/oF5ZMmoVUbs?rel=0" aria-label="KLAVA BRAVO — NO WORK NO CHECK">
+                  <div class="card-media">
+                    <img src="assets/images/musicvideo/mv_1.jpg" alt="KLAVA BRAVO — NO WORK NO CHECK" loading="lazy" />
+                    <div class="card-badge-tag"><span class="shadcn-badge -solid">МУЗЫКАЛЬНОЕ ВИДЕО</span></div>
+                    <div class="card-quality-tag"><span class="card-year">2026</span><span class="card-quality">4K</span></div>
+                    <div class="card-play-overlay">
+                      <div class="card-play-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 4. FAUNA FEST 2025 в Челябинске 22.08.25 (24.09.2025) -->
+                <div class="carousel-card js-carousel-card js-video-section" data-category="concerts" data-source-url="https://vkvideo.ru/video_ext.php?oid=-224782912&amp;id=456239343&amp;hash=56337ab5ec7a26cd" aria-label="FAUNA FEST 2025 в Челябинске 22.08.25">
+                  <div class="card-media">
+                    <img src="assets/images/concerts/concert_4.jpg" alt="FAUNA FEST 2025" loading="lazy" />
+                    <div class="card-badge-tag"><span class="shadcn-badge -solid">КОНЦЕРТ</span></div>
+                    <div class="card-quality-tag"><span class="card-year">2025</span><span class="card-quality">FHD</span></div>
+                    <div class="card-play-overlay">
+                      <div class="card-play-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 5. EX1ORD — ЗНОЙ Т1 (28.07.2025) -->
+                <div class="carousel-card js-carousel-card js-video-section" data-category="music" data-source-url="https://vk.com/video_ext.php?oid=-170121919&amp;id=456239225&amp;hash=c5d3679a4eae5e80" aria-label="EX1ORD — ЗНОЙ Т1">
+                  <div class="card-media">
+                    <img src="assets/images/musicvideo/mv_6.jpg" alt="EX1ORD — ЗНОЙ Т1" loading="lazy" />
+                    <div class="card-badge-tag"><span class="shadcn-badge -solid">МУЗЫКАЛЬНОЕ ВИДЕО</span></div>
+                    <div class="card-quality-tag"><span class="card-year">2025</span><span class="card-quality">FHD</span></div>
+                    <div class="card-play-overlay">
+                      <div class="card-play-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 6. Концерт LeanJe в Екатеринбурге 23.05.24 (10.07.2025) -->
+                <div class="carousel-card js-carousel-card js-video-section" data-category="concerts" data-source-url="https://vk.com/video_ext.php?oid=-115279618&amp;id=456239045&amp;hash=47b67fc83a530e1f" aria-label="Концерт LeanJe в Екатеринбурге 23.05.24">
+                  <div class="card-media">
+                    <img src="assets/images/concerts/concert_2.jpg" alt="Концерт LeanJe в Екатеринбурге" loading="lazy" />
+                    <div class="card-badge-tag"><span class="shadcn-badge -solid">КОНЦЕРТ</span></div>
+                    <div class="card-quality-tag"><span class="card-year">2025</span><span class="card-quality">FHD</span></div>
+                    <div class="card-play-overlay">
+                      <div class="card-play-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 7. Концерт BLAZERBOE в Челябинске 23.05.25 (07.06.2025) -->
+                <div class="carousel-card js-carousel-card js-video-section" data-category="concerts" data-source-url="https://vk.com/video_ext.php?oid=-165911183&amp;id=456239106&amp;hash=af1e3da7b8259ebb" aria-label="Концерт BLAZERBOE в Челябинске 23.05.25">
+                  <div class="card-media">
+                    <img src="assets/images/concerts/concert_1.jpg" alt="Концерт BLAZERBOE в Челябинске" loading="lazy" />
+                    <div class="card-badge-tag"><span class="shadcn-badge -solid">КОНЦЕРТ</span></div>
+                    <div class="card-quality-tag"><span class="card-year">2025</span><span class="card-quality">FHD</span></div>
+                    <div class="card-play-overlay">
+                      <div class="card-play-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 8. Концерт BLAZERBOE в Челябинске 13.03.25 (18.03.2025) -->
+                <div class="carousel-card js-carousel-card js-video-section" data-category="concerts" data-source-url="https://vk.com/video_ext.php?oid=-165911183&amp;id=456239080&amp;hash=f075303b7a0df5e3" aria-label="Концерт BLAZERBOE в Челябинске 13.03.25">
+                  <div class="card-media">
+                    <img src="assets/images/concerts/concert_3.jpg" alt="Концерт BLAZERBOE" loading="lazy" />
+                    <div class="card-badge-tag"><span class="shadcn-badge -solid">КОНЦЕРТ</span></div>
+                    <div class="card-quality-tag"><span class="card-year">2025</span><span class="card-quality">FHD</span></div>
+                    <div class="card-play-overlay">
+                      <div class="card-play-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 9. MonoRaga — СОЛДЖА (25.09.2024) -->
+                <div class="carousel-card js-carousel-card js-video-section" data-category="music" data-source-url="https://www.youtube.com/embed/Xw1praE3TMQ?rel=0" aria-label="MonoRaga — СОЛДЖА">
+                  <div class="card-media">
+                    <img src="assets/images/musicvideo/mv_5.jpg" alt="MonoRaga — СОЛДЖА" loading="lazy" />
+                    <div class="card-badge-tag"><span class="shadcn-badge -solid">МУЗЫКАЛЬНОЕ ВИДЕО</span></div>
+                    <div class="card-quality-tag"><span class="card-year">2024</span><span class="card-quality">4K</span></div>
+                    <div class="card-play-overlay">
+                      <div class="card-play-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      <!-- Section 3: Projects -->
+      <section id="proekty" class="content-section -wide-section">
+        <div class="fullwidth-glass-banner">
+          <div class="banner-inner -fluid">
+            <div class="banner-header-bar">
+              <div class="banner-title-col">
+                <h2 class="banner-heading">ПРОЕКТЫ С МОИМ УЧАСТИЕМ</h2>
+              </div>
+            </div>
+
+            <!-- Single Unified Project Card Tile -->
+            <div class="banner-content-grid glass-card-tile project-single-tile">
+              <div class="banner-media-side">
+                <div class="banner-poster-box">
+                  <img src="assets/images/proekty/fauna_tiktok.jpg" alt="Fauna Music TikTok" loading="lazy" />
+                  <div class="poster-overlay-tag">
+                    <span class="shadcn-badge -solid">TIKTOK PRODUCTION</span>
+                  </div>
+                </div>
+              </div>
+              <div class="banner-info-side">
+                <h3 class="project-subtitle">Развитие TikTok-аккаунта студии звукозаписи FAUNA MUSIC</h3>
+                <p class="project-paragraph">
+                  Принимаю участие в развитии ТТ-аккаунта студии звукозаписи Fauna Music, который за год достиг отметки более 45 тыс. подписчиков.
+                </p>
+                <p class="project-paragraph">
+                  Основная моя роль в создании контента для данного аккаунта заключается в создании и монтаже видео. Но также принимаю участие и в написании сценариев для видео.
+                </p>
+
+                <div class="project-tags-wrap">
+                  <span class="shadcn-tag"># ВИДЕОПРОИЗВОДСТВО</span>
+                  <span class="shadcn-tag"># МОНТАЖ</span>
+                  <span class="shadcn-tag"># СЦЕНАРИИ</span>
+                  <span class="shadcn-tag"># КРЕАТИВ</span>
+                  <span class="shadcn-tag"># REELS & SHORTS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4: About Me & Credits -->
+      <section id="o-sebe" class="content-section -wide-section">
+        <div class="fullwidth-glass-banner">
+          <div class="banner-inner -fluid">
+            <div class="banner-header-bar">
+              <div class="banner-title-col">
+                <h2 class="banner-heading">О СЕБЕ / RAW.FILMS</h2>
+              </div>
+            </div>
+
+            <!-- Single Unified About Card Tile -->
+            <div class="about-content-grid glass-card-tile about-single-tile">
+              <div class="about-profile-col">
+                <div class="about-photo-frame">
+                  <img src="assets/images/about/ravil.jpg" alt="Равиль — RAW.FILMS" loading="lazy" />
+                  <div class="photo-caption-badge">
+                    <span class="shadcn-badge -solid">РАВИЛЬ / RAW.FILMS</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="about-bio-col">
+                <div class="bio-header-wrap">
+                  <h3 class="bio-name">РАВИЛЬ</h3>
+                  <span class="bio-spec">РЕЖИССЁР И ОПЕРАТОР-ПОСТАНОВЩИК</span>
+                </div>
+                <p class="bio-text">
+                  Меня зовут Равиль. Я режиссёр и оператор-постановщик музыкальных клипов, коротких видео и дизайнер обложек для музыкальных релизов. Люблю всё, что связано с музыкой, и воплощаю её в визуальных историях через свои работы. На данный момент являюсь частью творческого объединения FAUNA.
+                </p>
+
+                <div class="credits-block">
+                  <div class="credits-header-row">
+                    <span class="shadcn-badge">CREDITS</span>
+                    <span class="credits-label">РАБОТАЛ С АРТИСТАМИ</span>
+                  </div>
+                  <div class="credits-chips-grid">
+                    <a href="https://vk.com/klavabravo" target="_blank" rel="noopener noreferrer" class="shadcn-chip" title="KLAVA BRAVO во ВКонтакте">
+                      <i class="fab fa-vk chip-vk-icon" aria-hidden="true"></i>
+                      <span>KLAVA BRAVO</span>
+                    </a>
+                    <a href="https://vk.ru/copuchonomore" target="_blank" rel="noopener noreferrer" class="shadcn-chip" title="Копюшон Ноу Мо во ВКонтакте">
+                      <i class="fab fa-vk chip-vk-icon" aria-hidden="true"></i>
+                      <span>Копюшон Ноу Мо</span>
+                    </a>
+                    <a href="https://vk.com/artist/trezv" target="_blank" rel="noopener noreferrer" class="shadcn-chip" title="TREZV во ВКонтакте">
+                      <i class="fab fa-vk chip-vk-icon" aria-hidden="true"></i>
+                      <span>TREZV</span>
+                    </a>
+                    <a href="https://vk.com/blazerboe" target="_blank" rel="noopener noreferrer" class="shadcn-chip" title="BLAZERBOE во ВКонтакте">
+                      <i class="fab fa-vk chip-vk-icon" aria-hidden="true"></i>
+                      <span>BLAZERBOE</span>
+                    </a>
+                    <a href="https://vk.com/dabaga_music" target="_blank" rel="noopener noreferrer" class="shadcn-chip" title="DABAGA во ВКонтакте">
+                      <i class="fab fa-vk chip-vk-icon" aria-hidden="true"></i>
+                      <span>DABAGA</span>
+                    </a>
+                    <a href="https://vk.com/monoraga74" target="_blank" rel="noopener noreferrer" class="shadcn-chip" title="MonoRaga во ВКонтакте">
+                      <i class="fab fa-vk chip-vk-icon" aria-hidden="true"></i>
+                      <span>MonoRaga</span>
+                    </a>
+                    <a href="https://vk.com/killa.what" target="_blank" rel="noopener noreferrer" class="shadcn-chip" title="KILLAWHAT во ВКонтакте">
+                      <i class="fab fa-vk chip-vk-icon" aria-hidden="true"></i>
+                      <span>KILLAWHAT</span>
+                    </a>
+                    <a href="https://vk.com/exx1ord" target="_blank" rel="noopener noreferrer" class="shadcn-chip" title="ex1ord во ВКонтакте">
+                      <i class="fab fa-vk chip-vk-icon" aria-hidden="true"></i>
+                      <span>ex1ord</span>
+                    </a>
+                    <a href="https://vk.com/nomerabcd" target="_blank" rel="noopener noreferrer" class="shadcn-chip" title="гр. НомерА во ВКонтакте">
+                      <i class="fab fa-vk chip-vk-icon" aria-hidden="true"></i>
+                      <span>гр. НомерА</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Integrated Section Footer Bar -->
+            <div class="banner-footer-row">
+              <ul class="social-links js-social-links">
+                <li class="item"><a class="link" href="https://t.me/+79322356699" rel="noopener noreferrer" target="_blank" title="Telegram"><i class="fab fa-telegram-plane"></i></a></li>
+                <li class="item"><a class="link" href="https://vk.ru/raw.films" rel="noopener noreferrer" target="_blank" title="VK"><i class="fab fa-vk"></i></a></li>
+              </ul>
+              <div class="footer-copy">
+                <span>ALL RIGHT RESERVED. 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons -right-bottom">
+      <div class="group"><div class="floating-button -share js-share-trigger"><i class="fal fa-share"></i></div></div>
+      <div class="group"><div class="floating-button -top js-back-to-top"><i class="fal fa-arrow-up"></i></div></div>
+    </div>
+  </div>
+
+  <script src="assets/js/theme.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+/video         /video.html         200
+/musicvideo    /video.html         301
+/page          /video.html         301
+/proekty       /proekty.html       200
+/o-sebe        /o-sebe.html        200
